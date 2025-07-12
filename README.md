@@ -9,6 +9,11 @@ This is my solution to the technical challenge. The code is organized into the f
 - Accepts a JSON `{ "text": "..." }` and returns `{ "summary": "..." }` from GPT-3.5-turbo
 - API key is loaded via `.env` using `dotenv`
 
+### 📂 Part 2: Excel/CSV Parser
+- Parses `.csv` or `.xlsx` files with flexible headers and inconsistent values
+- Cleans up entries like `"N/A"`, `"??"`, `-500`, missing PO numbers
+- Outputs a JSON list (`parser/parser.py`)
+
 # 🛠 Ops Tech Builder – Python + AI Integration Challenge
 
 Welcome! This short technical challenge is designed to evaluate your ability to work with Python, APIs, and structured data — the core of our day-to-day automation and integration work. We’re less focused on flashy frontends, and more interested in clean, working backend logic.

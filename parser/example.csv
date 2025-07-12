@@ -1,0 +1,10 @@
+PO Number, Vendor, Amount, Date, Status
+PO789, Tech Solutions Ltd, 25000, 2024-01-15, Approved
+PO790, , 18500, 2024-01-16, Pending
+, Global Supply Co, 32000, 2024-01-17, 
+PO792, Innovation Corp, N/A, 2024-01-18, Approved
+PO793, Smart Systems, 0, , Rejected
+PO794, Data Bridge Inc, 41500, 2024-01-20, Approved
+, , 15000, 2024-01-21, Pending
+PO796, Future Tech, ??, 2024-01-22, 
+PO797, Cloud Services, -500, 2024-01-23, Error
