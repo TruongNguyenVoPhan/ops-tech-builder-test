@@ -14,13 +14,37 @@ This is my solution to the technical challenge. The code is organized into the f
 - Cleans up entries like `"N/A"`, `"??"`, `-500`, missing PO numbers
 - Outputs a JSON list (`parser/parser.py`)
 
-# 🛠 Ops Tech Builder – Python + AI Integration Challenge
-
 ### 🧠 Part 3: Prompt Comparison
 - Uses OpenAI API to compare prompt outputs
 - Example prompt: extract names, dates, locations from a paragraph
 - Script: `prompts/compare_prompts.py
 
+
+### 🧮 Part 4 (Optional): SQL Query
+- SQL query to get top 5 vendors by total approved payments in last 30 days
+- File: `sql/top_vendor.sql`
+
+### How to run
+1. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+2. Create a .env file:
+```
+OPENAI_API_KEY=your_openai_key_here
+```
+3. Run FastAPI server:
+```
+uvicorn api.main:app --reload
+```
+4. Run scripts:
+```
+Parser: python parser/parser.py
+Prompt comparison: python prompts/compare_prompts.py
+```
+
+
+# 🛠 Ops Tech Builder – Python + AI Integration Challenge
 
 Welcome! This short technical challenge is designed to evaluate your ability to work with Python, APIs, and structured data — the core of our day-to-day automation and integration work. We’re less focused on flashy frontends, and more interested in clean, working backend logic.
 
